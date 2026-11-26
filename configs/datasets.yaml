@@ -1,0 +1,21 @@
+data_root: /your/dataset/path
+
+datasets:
+  vista:
+    name: vista
+    data_dir: ${data_root}/VISTA/
+    image_dir: ${data_root}/VISTA/JPEGImages
+    anno_dir: ${data_root}/VISTA/Annotations
+    split_dir: ${data_root}/VISTA/ImageSets
+    trans_dir: ${data_root}/VISTA/Transformations
+    unified_tracking: True
+    fps: null
+  vost:
+    name: vost
+    data_dir: ${data_root}/VOST
+    image_dir: ${data_root}/VOST/JPEGImages
+    anno_dir: ${data_root}/VOST/Annotations
+    split_dir: ${data_root}/VOST/ImageSets
+    anno_tas: ${data_root}/VOST-TAS/vost_tas.json
+    unified_tracking: False
+    fps: 5

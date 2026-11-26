@@ -1,0 +1,10 @@
+paths:
+  outdir: 'out/ours-SAM2/'
+
+# Hyperparams
+ENABLE_MLLM: False
+TRANSF_TH_DIS: 0.8
+TRANSF_TH_ASMBL: 0.8
+SAMPLING_MIN_IOU: 0.8
+SAMPLING_K: 32
+SAM_VERSION: 2

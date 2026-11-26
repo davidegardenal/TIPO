@@ -1,0 +1,12 @@
+MODEL_PATH: "gpt-5.4-mini-2026-03-17"
+BASE_URL: "https://api.openai.com"
+PORT: null
+API_KEY: ""
+MAX_TOKENS: null
+TEMPERATURE: 0.0
+TOP_P: null
+PRESENCE_PENALTY: null
+TOP_K: null
+REASONING_EFFORT: "none"
+ENABLE_THINKING: null
+out_path: semantic/gpt54mini

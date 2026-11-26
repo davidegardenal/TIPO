@@ -1,0 +1,12 @@
+MODEL_PATH: "Qwen3.5-35B-A3B-FP8"
+BASE_URL: "http://localhost"
+PORT: 8000
+API_KEY: "EMPTY"
+MAX_TOKENS: null
+TEMPERATURE: 0.0
+TOP_P: null
+PRESENCE_PENALTY: null
+TOP_K: null
+REASONING_EFFORT: "none"
+ENABLE_THINKING: false
+out_path: semantic/qwen35bfp8
